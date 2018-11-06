@@ -9,6 +9,7 @@ from .forest import RandomForestRegressor
 from .forest import RandomTreesEmbedding
 from .forest import ExtraTreesClassifier
 from .forest import ExtraTreesRegressor
+from .forest import DoubleSampleForest
 from .bagging import BaggingClassifier
 from .bagging import BaggingRegressor
 from .iforest import IsolationForest
@@ -30,6 +31,6 @@ __all__ = ["BaseEnsemble",
            "ExtraTreesRegressor", "BaggingClassifier",
            "BaggingRegressor", "IsolationForest", "GradientBoostingClassifier",
            "GradientBoostingRegressor", "AdaBoostClassifier",
-           "AdaBoostRegressor", "VotingClassifier",
+           "AdaBoostRegressor", "VotingClassifier", "DoubleSampleForest",
            "bagging", "forest", "gradient_boosting",
            "partial_dependence", "weight_boosting"]
